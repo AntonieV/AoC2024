@@ -1,7 +1,7 @@
 *
-!AoC2024_1-8.ipynb
-!AoC2024_9-16.ipynb
-!AoC2024_17-24.ipynb
+!notebooks
+!notebooks/**
+!day_*.py
 !utils.ipynb
 !LICENSE
 !README.md
