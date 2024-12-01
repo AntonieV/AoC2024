@@ -16,12 +16,12 @@ def get_solution_1(list1, list2):
         
     
 def get_solution_2(list1, list2):
-    items = list(set(list1))
-    return sum([item * list2.count(item) for item in items])
+    # list1 = list(set(list1))
+    return sum([item * list2.count(item) for item in list1])
 
 
 
-file = f"data/day_{DAY}.txt"
+file = f"../data/day_{DAY}.txt"
 
 
 list_1, list_2 = read_and_parse(file)
@@ -30,7 +30,7 @@ solution_1 = get_solution_1(list_1, list_2)
 solution_2 = get_solution_2(list_1, list_2)
 
 print(f"Day {DAY} - Solution 1:", solution_1)
-print(f"Day {DAY} - Solution 2:", solution_2) 
+print(f"Day {DAY} - Solution 2:", solution_2)
 
 # Day 1 - Solution 1: 936063
 # Day 1 - Solution 2: 23150395
