@@ -1,4 +1,4 @@
- ### https://adventofcode.com/2024
+### https://adventofcode.com/2024
 
 import json
 
@@ -93,13 +93,9 @@ def get_solution_2(_up, _down, paths):
 
 
 file = f"../data/day_{DAY}.txt"
-# file = "../data/example.txt"
 
 data = read_file(file)
 up, down, _paths = parse_input(data)
-# print("UP:", sorted(up['57']), "\n")
-# print("DOWN:", sorted(down['57']), "\n")
-# print(_paths, "\n")
 
 
 solution_1, incorrect = get_solution_1(up, down, _paths)
